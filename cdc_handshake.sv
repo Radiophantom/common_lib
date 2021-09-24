@@ -43,6 +43,9 @@ logic s_req_posedge_stb, s_req_negedge_stb;
 logic m_ack_stb;
 logic s_req_stb;
 
+logic m_req_cross_domain;
+logic s_ack_cross_domain;
+
 //**************************************************
 // Master clock domain
 //**************************************************
